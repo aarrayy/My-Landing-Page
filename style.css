@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 35px;
+}
+
+.nav-bar {
+    color: white;
+    background-color: #1F2937;
+    height: 70px;
+}
+
+.titulo{
+    font-size: 24px;
+    color: #F9FAf8;
+}
+
+.nav-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+}
