@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif ;
 }
 
 ul {
@@ -10,6 +11,7 @@ ul {
 
 img {
     max-width: 100%;
+    
 }
 
 .container{
@@ -39,4 +41,43 @@ img {
 .nav-bar ul{
     display: flex;
     gap: 20px;
+}
+
+.header {
+    background-color: #1F2937;
+    min-height: 400px;
+}
+
+.header img{
+    width: 400px;
+    height: 150px;
+}
+
+.header h1{
+    color: #F9FAf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+}
+
+.header-subtext{
+    font-size: 18;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.button-sign{
+    background-color: #3882F6;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    color: #F9FAf8;
+    font-weight: 500;
+    font-size: 18px;
 }
