@@ -1,5 +1,5 @@
 # My-Landing-Page
-My first web page entirly made by me
+My first web page entirely made by me.
 
 Credits to authors of the images:
 
