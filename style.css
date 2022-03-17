@@ -5,7 +5,9 @@
 
 */
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 * {
     box-sizing: border-box;
@@ -22,6 +24,7 @@ img {
     max-width: 100%;
     
 }
+
 
 /*
    =============
@@ -121,6 +124,7 @@ img {
     height: 160px; 
 }
 
+
 /*
    ===============
    typography
@@ -167,7 +171,7 @@ img {
 
 /*
    ==================
-   components
+   buttons
    ==================
 
 
@@ -182,7 +186,19 @@ img {
     color: #F9FAf8;
     font-weight: 500;
     font-size: 18px;
+    transition-duration: 0.5s;
 }
+
+.button-sign:hover{
+    background-color: rgb(22, 216, 80);
+    color: white;
+    transform: scale(1.1);
+}
+
+.container button{
+    margin-right: 10px;
+}
+
 
 /*
    ================
@@ -274,7 +290,7 @@ img {
    footer   
    =================
 
-   
+
 */
 
 .footer{
