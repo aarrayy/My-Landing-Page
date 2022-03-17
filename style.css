@@ -177,7 +177,8 @@ img {
 
 */
 
-.button-sign{
+.button-sign,
+.button-regalo{
     background-color: #3882F6;
     width: 150px;
     height: 40px;
@@ -189,7 +190,8 @@ img {
     transition-duration: 0.5s;
 }
 
-.button-sign:hover{
+.button-sign:hover,
+.button-regalo:hover{
     background-color: rgb(22, 216, 80);
     color: white;
     transform: scale(1.1);
